@@ -1,0 +1,80 @@
+body{
+       background: rgb(238,174,202);
+background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(77,161,246,1) 58%, rgba(88,162,243,1) 66%);
+      text-align: center;
+}
+.labels{
+
+       display: flex;
+       justify-content:center;
+       
+       font-size: 30px;
+       padding:10px 0;
+       color:rgba(66, 66, 66, 0.986);
+}
+.labels label{
+       padding-right: 50px;
+}
+
+.labels input{
+       width: 10%;
+       border: none;
+       border-radius: 5px;
+       padding:15px 0;
+       font-size: 20px;
+}
+.container{
+       display: flex;
+       justify-content: space-around;
+       margin-top:50px;
+       width: 100%;
+       
+}
+table{
+       border-collapse: collapse;
+       
+}
+
+.table-top{
+       background-color: rgb(6,57,112);
+       color:aliceblue;
+       font-size: 35px;
+       position: relative;
+       
+}
+.products {
+background: rgba(255, 255, 255, 0.575);
+}
+th{
+       padding:10px 90px;
+}
+
+td{
+       padding: 20px;
+       font-size: 25px;
+       
+}
+table th:first-child{
+       border-radius:20px 0 0 20px;
+     }
+     
+table th:last-child{
+       border-radius:0 20px 20px 0;
+ }
+
+table td:first-child{
+       border-radius:20px 0 0 20px;
+}
+table td:last-child{
+       border-radius:0 20px 20px 0;
+}
+button{
+       background-color: rgb(6,57,112);
+       color:#ffff;
+       border: none;
+       cursor: pointer;
+       font-size: 30px;
+       padding:19px;
+       border-radius: 15px;
+       margin-top:40px;
+}
