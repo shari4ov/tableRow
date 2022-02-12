@@ -20,7 +20,6 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(77,161,246,1) 58
        width: 10%;
        border: none;
        border-radius: 5px;
-       padding:15px 0;
        font-size: 20px;
 }
 .container{
@@ -73,8 +72,20 @@ button{
        color:#ffff;
        border: none;
        cursor: pointer;
-       font-size: 30px;
-       padding:19px;
+       font-size: 23px;
+       padding:25px;
        border-radius: 15px;
        margin-top:40px;
+       user-select:none;
+       transition-duration: 0.4s;
+
 }
+button:active{
+       
+  
+  
+  opacity: 0;
+  transition: all 0.5s;
+ 
+}
+
