@@ -28,11 +28,11 @@ const addingModel = function(){
        for (var j = 0; j < 4; j++) {
        
        let cell = document.createElement("td");
-       
        let firmName = document.createTextNode(inputFirm.value);
        let modelName = document.createTextNode(inputModel.value);
        let colorName = document.createTextNode(inputColor.value);
        let rows = [String(idNum).padStart(2,'0'),firmName,modelName,colorName];
+       
        cell.append(rows[j]);
        row.appendChild(cell);
        
@@ -55,6 +55,7 @@ function resetField(){
 };
 
 add.addEventListener('click',function(){
-       addingModel();
+       if(inputFirm.value!=='' && inputModel.value!=='' && inputColor!==''){
+       addingModel();}
 }
 );
