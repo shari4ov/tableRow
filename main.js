@@ -18,13 +18,10 @@ let inputColor = document.querySelector('#color');
 idNum=2;
 
 const addingModel = function(){      
-
- 
        // creates a table row
        let row = document.createElement("tr");
-       row.classList.add('products');
-       
-              
+       row.classList.add('products'); 
+       // create a cell of row
        for (var j = 0; j < 4; j++) {
        
        let cell = document.createElement("td");
@@ -33,6 +30,7 @@ const addingModel = function(){
        let colorName = document.createTextNode(inputColor.value);
        let rows = [String(idNum).padStart(2,'0'),firmName,modelName,colorName];
        
+       // insert data into cells
        cell.append(rows[j]);
        row.appendChild(cell);
        
