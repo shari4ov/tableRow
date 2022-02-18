@@ -81,12 +81,8 @@ button{
 
 }
 button:active{
-       
-  
-  
   opacity: 0;
   transition: all 0.5s;
- 
 }
 
 .remove-btn{
@@ -96,4 +92,54 @@ button:active{
        background-color: red;
        color: #fff;
        cursor: pointer;
+}
+.edit-btn{
+       font-size: 15px;
+       padding: 10px;
+       margin:0;
+       background-color: green;  
+}
+.editing{
+       max-width: 500px;
+       width: 100%;
+       margin:0 auto;
+       
+       
+       
+       padding:30px 0;
+       margin-top:50px;
+       border-radius: 20px;
+       background-color: rgba(255, 255, 255, 0.575);
+}
+.editing div{   
+       padding:20px;
+}
+.editing label{
+       font-size: 25px;  
+       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.editing input{
+       border: none;
+       border-radius: 30px;
+       padding:8px;
+       font-size: 20px;
+}
+.hidden {
+       display: none;
+}
+button:hover{
+       background-color: #2121;
+}
+.editing form #update{
+       background-color: green;
+}
+.editing form #update:hover{
+       background-color: #2121;
+}
+.editing .overlay{
+       max-width: 500px;
+       margin: 0 auto;
+       padding:20px;
+       position: relative;
+       top:30%;
 }
