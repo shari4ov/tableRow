@@ -103,13 +103,11 @@ button:active{
        max-width: 500px;
        width: 100%;
        margin:0 auto;
-       
-       
-       
        padding:30px 0;
        margin-top:50px;
        border-radius: 20px;
        background-color: rgba(255, 255, 255, 0.575);
+       animation:updateBox 1s;
 }
 .editing div{   
        padding:20px;
@@ -142,4 +140,12 @@ button:hover{
        padding:20px;
        position: relative;
        top:30%;
+}
+@keyframes updateBox {
+       0%{
+              opacity: 0;
+       }
+       100%{
+              opacity: 1;
+       }
 }
